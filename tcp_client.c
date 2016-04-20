@@ -49,7 +49,7 @@ int main(int argc, char *argv[]){
     //发送接收信息并打印接收信息--recv返回接收到的字节数，send返回发送的字节数
     printf("Enter string to send:");
     char str[90];
-    scanf("%s",&str);
+    gets(str);
     
     //初始化结构体对象
     bzero(&server,sizeof(server));
